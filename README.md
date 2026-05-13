@@ -165,14 +165,12 @@ Real errors encountered during setup and how they were resolved — see [`docs/t
 
 ## 📸 Screenshots
 
-See the [`screenshots/`](screenshots/) folder for:
-- Grafana dashboard
-- Prometheus targets page
-- systemd service status output
-- Terminal troubleshooting logs
+### Full Stack Overview
+![Monitoring Stack Overview](screenshots/monitoring-stack-overview.png)
 
+*Clockwise from top-left: Prometheus start logs (IPv6 binding issue), socket status via `ss`, systemctl service status, live Grafana dashboard (CPU/RAM/Disk), Prometheus systemd service file, prometheus.yml config, and architecture diagram.*
 ---
 
 ## 👤 Author
 
-**Ramit Basra** — [GitHub](https://github.com/basraramit) · [LinkedIn](https://linkedin.com/in/ramitbasra)
+**Ramit Basra** — [GitHub](https://github.com/basraramit) · [LinkedIn](https://linkedin.com/in/ramit-basra)
