@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Downloaded binaries (don't commit these)
+*.tar.gz
+*.zip
+
+# Prometheus data directory
+data/
+
+# Environment files
+*.env
+.env
